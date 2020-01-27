@@ -9,7 +9,7 @@ import VueAxios from 'vue-axios';
 
 Vue.config.productionTip = false;
 Vue.use(iview);
-axios.defaults.baseURL = 'http://localhost:5000/';
+axios.defaults.baseURL = "https://limin-web-tools.herokuapp.com/";
 Vue.use(VueAxios, axios);
 
 new Vue({
